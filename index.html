@@ -15,42 +15,46 @@
     <div class="main_container">
         <div class="button_container">
             <div class="switch_buttons">
-                <div class="switch_button active">
+                <div class="switch_button active" id="loginBtn">
                     Login
                 </div>
-                <div class="switch_button">
+                <div class="switch_button" id="registerBtn">
                     Register
                 </div>
             </div>
         </div>
         <div class="login_page">
-            <div class="login_container">
+            <div class="login_container" id="loginContainer">
                 <div class="logo">
                     <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_yravkfyg.json"
-                        background="transparent" speed="1" style="width: 100px; height: 100px;" loop
+                        background="transparent" speed="1" style="width: 90px; height: 90px;" loop
                         autoplay></lottie-player>
                 </div>
                 <div class="subheading"></div>
-                <div class="heading">Login Page</div>
-                <div class="subheading">Not registered yet? &emsp;<p>Register Now</p>
-                </div>
-                <div class="input_div">
-                    <input type="text">
-                    <i class="fa-solid fa-envelope"></i>
-                </div>
-                <div class="input_div">
-                    <input type="password">
-                    <i class="fa-solid fa-eye"></i>
+                <div class="heading" id="heading">Login</div>
+                <div class="subheading" id="subheading">Not registered yet? &emsp;<p>Register Now</p>
                 </div>
                 <br>
-                <div class="input_div">
-                    <button class="login_button">Login</button>
+                <div id="loginDiv">
+                    <div class="input_div">
+                        <input type="text">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="input_div">
+                        <input type="password">
+                        <i class="fa-solid fa-eye"></i>
+                    </div>
+                    <br>
+                    <div class="input_div">
+                        <button class="login_button">Login</button>
+                    </div>
                 </div>
             </div>
         </div>
 
     </div>
 
+    <script src="js/main.js"></script>
 </body>
 
 </html>
